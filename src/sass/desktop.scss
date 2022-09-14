@@ -1,0 +1,31 @@
+/*
+VOXELICIOUS by Alexander Abraham, a.k.a. "Angel Dollface".
+Licensed under the MIT license.
+*/
+
+/* This SASS styles the desktop site. */
+
+html, body {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: $bgColor;
+  width: 100vw;
+  height: 100vh;
+}
+canvas {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: $bgColor;
+  width: 100vw;
+  height: 100vh;
+}
