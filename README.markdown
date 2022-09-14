@@ -30,7 +30,7 @@ git clone https://github.com/angeldollface/voxelicious
 - 2.) Change directory into the source's root directory:
 
 ```bash
-cd angel
+cd voxelicious
 ```
 
 - 3.) Install the project's dependencies:
