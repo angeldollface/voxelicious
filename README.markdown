@@ -1,48 +1,58 @@
 # VOXELICIOUS :dolls: :kaaba:
 
-![GitHub CI](https://github.com/angeldollface/voxelicious/actions/workflows/vue.yml/badge.svg)
+![GitHub CI](https://github.com/angeldollface/voxelicious/actions/workflows/node.yml/badge.svg)
 
 ***A doll's experiments with three.js. :dolls: :kaaba:***
 
 ## ABOUT :books:
 
-This project is a sort of playground for me for building different things using `three.js`. Some of the things you see here will be adopted into my main website.
+This project is a playground for me for building different things using `three.js`. Some of the things you see here will be adopted into my main website.
 
-## VIEW :rocket:
+## LEARN AND RE-USE :thinking: :sparkles:
 
-You can view the website at this link: [VIEW](https://angeldollface.art/voxelicious)
+If you want to understand how I've achieved this project, read the source code in the file `src/render.ts`.
 
-## TRY IT OUT :test_tube:
+## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
-If you would like to try this website on your own system, make sure you have the following tools installed first.
+To view a live deployed version of this project and this demo, click here: [VIEW](https://angeldollface.art/voxelicious)
 
+## TRY IT FOR YOURSELF! :inbox_tray:
+
+Make sure you have the following tools installed and available from the command line:
+
+- Node.js
 - Git
-- Node.js 15.x+
 
-Once you have confirmed this, execute these steps:
+Once you have these tools installed, execute these steps:
 
-- 1.) Fetch this site's source code from GitHub:
+- 1.) Get the source code:
 
 ```bash
-git clone https://github.com/angeldollface/voxelicious
+$ git clone https://github.com/angeldollface/voxelicious
 ```
 
 - 2.) Change directory into the source's root directory:
 
 ```bash
-cd voxelicious
+$ cd voxelicious
 ```
 
 - 3.) Install the project's dependencies:
 
 ```bash
-npm install
+$ npm install
 ```
 
-- 4.) Run the local development server and view the project live:
+- 4.) Run React's development server:
 
 ```bash
-npm run serve
+$ npm start
+```
+
+- 5.) Optional: To compile this project, run this command:
+
+```bash
+$ npm run build
 ```
 
 ## CHANGELOG :black_nib:
@@ -51,6 +61,12 @@ npm run serve
 
 - Initial release.
 - Upload to GitHub & GitHub Pages.
+
+### Version 1.1.0
+
+- Migrated the project to React.js.
+- Migrated the project to Typescript.
+- Added a bouncing animation for the geometry in the scene.
 
 ## NOTE :scroll:
 
