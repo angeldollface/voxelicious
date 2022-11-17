@@ -1,0 +1,8 @@
+{
+    "short_name": "Voxelicious",
+    "name": "A doll's experiments with three.js.",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
