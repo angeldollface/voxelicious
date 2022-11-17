@@ -1,6 +1,6 @@
 # VOXELICIOUS :dolls: :kaaba:
 
-![GitHub CI](https://github.com/angeldollface/voxelicious/actions/workflows/node.yml/badge.svg)
+![GitHub CI](https://github.com/angeldollface/voxelicious/actions/workflows/react.yml/badge.svg)
 
 ***A doll's experiments with three.js. :dolls: :kaaba:***
 
