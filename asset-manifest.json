@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/voxelicious/static/css/main.dccf9dd2.css",
-    "main.js": "/voxelicious/static/js/main.6f2e20d6.js",
+    "main.js": "/voxelicious/static/js/main.b7fc97e4.js",
     "index.html": "/voxelicious/index.html",
     "main.dccf9dd2.css.map": "/voxelicious/static/css/main.dccf9dd2.css.map",
-    "main.6f2e20d6.js.map": "/voxelicious/static/js/main.6f2e20d6.js.map"
+    "main.b7fc97e4.js.map": "/voxelicious/static/js/main.b7fc97e4.js.map"
   },
   "entrypoints": [
     "static/css/main.dccf9dd2.css",
-    "static/js/main.6f2e20d6.js"
+    "static/js/main.b7fc97e4.js"
   ]
 }
