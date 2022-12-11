@@ -14,7 +14,7 @@ export function renderModel(){
     let textureUrl: string = 'https://angeldollface.art/assets/images/matcaps/01.png';
     let scene: THREE.Scene = new THREE.Scene();
     let camera: THREE.PerspectiveCamera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight);
-    camera.position.z = 5;
+    camera.position.z = 4;
     camera.position.x = 0;
     camera.position.y = 0;
     scene.background = new THREE.Color(0xFFACA5);
@@ -48,6 +48,7 @@ export function renderModel(){
     let dYPerFrame: number = moveConstant;
     const tick = () => {
         window.requestAnimationFrame(tick);
+        window.addEventListener('resize', resize);
         scene.traverse( 
             function ( object ) {
                 let myObject: THREE.Mesh = object as THREE.Mesh;
@@ -62,6 +63,15 @@ export function renderModel(){
             }
         );
         renderer.render(scene, camera);
+    }
+
+    // Defining a nested function to adjust some renderer
+    // and camera settings.
+    const resize = () => {
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
     }
     tick();
 }
