@@ -8,13 +8,17 @@
 
 This project is a playground for me for building different things using `three.js`. Some of the things you see here will be adopted into my main website.
 
-## LEARN AND RE-USE :thinking: :sparkles:
-
-If you want to understand how I've achieved this project, read the source code in the file `src/render.ts`.
-
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
 To view a live deployed version of this project and this demo, click here: [VIEW](https://angeldollface.art/voxelicious)
+
+## SHOWCASE :camera:
+
+![Showcase for Voxelicious.](/assets/voxelicious.gif)
+
+## LEARN AND RE-USE :thinking: :sparkles:
+
+If you want to understand how I've achieved this project, read the source code in the file `src/render.ts`.
 
 ## TRY THIS PROJECT ON YOUR OWN MACHINE! :inbox_tray:
 
