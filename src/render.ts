@@ -11,7 +11,7 @@ import * as THREE from 'three';
 export function renderModel(){
     let meshSize: number = 0.3;
     let meshSpacing: number = 0.3;
-    let textureUrl: string = 'https://angeldollface.art/doll-cdn/images/matcaps/01.png';
+    let textureUrl: string = 'https://angeldollface.boo/doll-cdn/images/matcaps/01.png';
     let scene: THREE.Scene = new THREE.Scene();
     let camera: THREE.PerspectiveCamera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight);
     camera.position.z = 4;

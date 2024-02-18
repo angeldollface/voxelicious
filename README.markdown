@@ -10,7 +10,7 @@ This project is a playground for me for building different things using `three.j
 
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
-To view a live deployed version of this project and this demo, click here: [VIEW](https://angeldollface.art/voxelicious)
+To view a live deployed version of this project and this demo, click here: [VIEW](https://angeldollface.boo/voxelicious)
 
 ## SHOWCASE :camera:
 
